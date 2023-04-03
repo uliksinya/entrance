@@ -12,6 +12,17 @@
     margin-left: 107px;
     margin-right: 119px;
 }
+#entr{
+    position: relative;
+}
+#entr::after{
+    content: url(./img/cross.png);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -84px;
+    right: -50px;
+}
 #phone, #passw{
     width: 385px;
     height: 50px;
