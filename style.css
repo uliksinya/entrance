@@ -1,0 +1,94 @@
+.form{
+    width:600px;
+    height:717px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    border-radius: 20px;    
+}
+.entrance{
+    padding-top: 129px;
+    margin-left: 107px;
+    margin-right: 119px;
+}
+#phone, #passw{
+    width: 385px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 83px;
+    margin-top: 40px;
+    
+}
+input::placeholder{
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    text-indent: 34px;
+}
+#passw{
+    margin-top: 24px;
+}
+.password_wrapper{
+    position: relative;
+}
+.password-image{
+    position: absolute;
+    top: 40px;
+    right: 32px;
+}
+.remember_password{
+    display: flex;
+    flex-direction: row;
+}
+#remember{
+    box-sizing: border-box;    
+    width: 30px;
+    height: 30px;  
+    border: 0.9px solid #BDBDBD;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+label[for="remember"]{
+    margin-top: 29px;
+    margin-left: 16px;
+}
+.button_remember button{
+    width: 152px;
+    height: 50px;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    border-color: transparent;
+    margin-left: 37px;
+}
+.button_remember{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 40px;
+}
+.line{
+    margin-top: 40px;
+    width: 385.02px;
+    border: 1px solid #BDBDBD;
+}
+ /* .registration{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}  */
+
+.registration button{
+    width: 217px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 49px;
+    background:none;
+    margin-left: 84px;
+   
+}

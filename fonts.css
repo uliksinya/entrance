@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url(./fonts/SpectralSC-Regular.ttf);
+}
+.entrance h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    align-items: center;
+    color: #424242;
+    margin: 0px;
+}
+.remember_password h3{
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+    margin: 0px;    
+}
+.button_remember h3{
+    margin-left: 24px;
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+
+}
+.button_remember h2{
+    font-family: 'Spectral SC';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.registration h3{
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #424242;
+    margin-top: 40px;
+}
+.registration h2{
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #BDBDBD; 
+}
